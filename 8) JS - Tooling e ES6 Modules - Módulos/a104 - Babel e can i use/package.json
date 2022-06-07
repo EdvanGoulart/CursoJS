@@ -1,0 +1,18 @@
+{
+  "name": "a104---babel-e-can-i-use",
+  "version": "1.0.0",
+  "description": "O Babel é um transpilador que te permite escrever javascript de uma maneira mais moderna, utilizando funções e recursos que ainda não estão disponíveis de forma nativa nos browsers. Ele usa um conjunto de plugins para transpilar seu código ECMAScript 6/7 para o ECMAScript 5 para que seu código funcione nos browsers atuais, que ainda não implementaram certas funcionalidades do ESNext.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel ./main.js -o ./bundle.js --presets=@babel/env -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10"
+  }
+}
