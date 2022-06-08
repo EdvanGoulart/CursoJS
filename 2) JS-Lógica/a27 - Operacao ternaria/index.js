@@ -2,6 +2,7 @@ const pontuacaoUsuario = 999;
 //Operação termária
 //                   Condição      ?  'valor para verdadeiro' :  'Valor para falso';
 const nivelUsuario = pontuacaoUsuario >= 1000 ? 'Usuário Vip ' : 'Usuário Normal';
+//Se o usuário tiver mais de 1000 pontos ele será 'Usuário Vip' se não 'usuário normal'
 console.log(nivelUsuario)
 
 //Em JS vc vai ter várias formas de encurtar seu código
